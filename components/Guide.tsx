@@ -14,10 +14,10 @@ const Guide = () => {
         <p className='regular-16 text-gray-30 xl:max-w-[520px]'>
         Welcome to Cozy Haven Homestay, your sanctuary in the heart of Shimla. 
         At Cozy Haven, we pride ourselves on creating an easy and enjoyable experience for our guests. Our friendly staff is dedicated to making your stay as comfortable and enjoyable as possible.
-        With excellent reviews from our guests, you can trust that Cozy Haven is the perfect choice for your next vacation.</p>
+        With excellent reviews from our guests, you can trust that Cozy Haven is the perfect choice for your next vacation. <strong>Join us at Cozy Haven Homestay and experience the tranquility and hospitality that set us apart. Book your stay today and let us guide you to an easy path to relaxation and adventure.</strong></p>
 
-      <p className='mt-10'>  <strong>Join us at Cozy Haven Homestay and experience the tranquility and hospitality that set us apart. Book your stay today and let us guide you to an easy path to relaxation and adventure.</strong></p>
-        
+      
+       
       </div>
     </div>
 
