@@ -4,8 +4,8 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Cozy Haven",
-  description: "HomeStay in the heart of the city- Shimla",
+  title: "Cozy Haven Homestay Shimla",
+  description: "Best Homestay in Shimla",
 };
 
 export default function RootLayout({

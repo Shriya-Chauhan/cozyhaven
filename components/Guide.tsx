@@ -10,7 +10,7 @@ const Guide = () => {
         We are here for you
       </p>
       <div className='flex flex-wrap justify-between gap-5 lg:gap-10'>
-        <h2 className='bold-40 lg:bold-64 xl: max-w-[390px]'>Get to Know About Us</h2>
+        <h2 className='bold-40 lg:bold-64 xl: max-w-[390px]'>About Us</h2>
         <p className='regular-16 text-gray-30 xl:max-w-[520px]'>
         Welcome to Cozy Haven Homestay, your sanctuary in the heart of Shimla. 
         At Cozy Haven, we pride ourselves on creating an easy and enjoyable experience for our guests. Our friendly staff is dedicated to making your stay as comfortable and enjoyable as possible.
@@ -21,9 +21,9 @@ const Guide = () => {
       </div>
     </div>
 
-    <div className='flexCenter max-container relative w-full  '>
+    <div className='flexCenter max-container relative  lg:h-[80%]'>
       <Image 
-      src="/boat.png"
+      src="/img-1.jpg"
       alt='boat'
       width={1440}
       height={580}
@@ -40,14 +40,14 @@ const Guide = () => {
             <div className='flex w-full flex-col'>
               <div className='flexBetween w-full'>
                 <p className='regular-16 text-gray-20'> Destination</p>
-                <p className='bold-16 text-green-50'>48 min</p>
+                <p className='bold-16 text-green-50'>32 min</p>
               </div>
-              <p className='bold-20 mt-2'>Augus Calientes</p>
+              <p className='bold-20 mt-2'>Mehli, Near Shimla</p>
             </div>
             <div className='flex w-full flex-col'>
               
-                <p className='regular-16 text-gray-20'> Start Track</p>
-                <p className='bold-20 mt-2 white-space-nowrap'>Shimla Valley</p>
+                <p className='regular-16 text-gray-20'> Prime Location</p>
+                <p className='bold-20 mt-2 white-space-nowrap'>Shimla</p>
             </div>
 
           </div>

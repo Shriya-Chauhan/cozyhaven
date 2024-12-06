@@ -2,7 +2,9 @@ import Image from 'next/image'
 import React from 'react'
 import Button from './Button'
 
+
 const Hero = () => {
+  const phoneNumber = '+91 9418454877';
   return (
     <section className="max-container padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row ">
       <div className='hero-map' />
@@ -34,12 +36,12 @@ const Hero = () => {
           ))}
 
         </div>
-        <p className='bold-16 lg:bold-20 text-blue-70'>198k
-          <span className='regular-16 lg:regular-20 ml-1  '>Excellent Reviews</span>
+        <p className='bold-16 lg:bold-20 text-blue-70'>Excellent Reviews 
+          <span className='regular-16 lg:regular-20 ml-1  '>Coming Soon!</span>
         </p>
       </div>
       <div className='flex flex-col w-full gap-3 sm:flex-row'>
-        <Button type='button' title='Book an Room' variant="btn_green"/>
+        <Button type='button' title='Book a Room' variant="btn_green" href={`tel:${phoneNumber}`}/>
         <Button type='button' title='Explore' icon='/play.svg' variant="btn_white_text"/>
 
       </div>
@@ -52,18 +54,18 @@ const Hero = () => {
               
               </div>
               
-              <p className='bold-20  text-white'>Shimla</p>
+              <p className='bold-20  text-white'>Mehli, Shimla</p>
               </div>
           
             <div className='flexBetween'>
               <div className='flex flex-col'>
                 <p className='regular-16 text-gray-20 block'>Distance</p>
-                <p className='bold-20 text-white'>173.28 mi</p>
+                <p className='bold-20 text-white'>7 km</p>
 
               </div>
               <div className='flex flex-col'>
                 <p className='regular-16 text-gray-20 block'>Elevation</p>
-                <p className='bold-20 text-white'>2.040 km</p>
+                <p className='bold-20 text-white'>2.296 km</p>
 
               </div>
 
